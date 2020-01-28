@@ -1,0 +1,31 @@
+
+body{
+  margin: auto;
+}
+
+nav {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 15%;
+  float: left;
+}
+
+a{
+  border-style: solid;
+  border-color: blue;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a:hover{
+  border-color: yellow;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+main{
+  float: right;
+  width: 85%;
+}
